@@ -9,7 +9,7 @@ def selectionSort(list):
                 temp = list[i]
                 list[i]=list[lowestNumber]
                 list[lowestNumber] = temp
-    print(list)
+
     return list
 
 list = [1,5,8,3,4,6]
